@@ -8,16 +8,18 @@ Reverse geocoding browser-based typescript library, using free Bigdatacloud API
 
 ## Installation
 $`npm i -S bigdatacloud-reverse-geocoding`
+
 or
+
 $`yarn add bigdatacloud-reverse-geocoding`
 
 ## Usage (very clear and simple)
 ```javascript
-    import ReverseGeocode, { ILocation, IGeocode } from "bigdatacloud-reverse-geocoding";
-	const geocode = new ReverseGeocode();
-	const location: ILocation = { lat: 33.23323, long: -76.33443};
-	const placeL IGeocode = await geocode.locate(location);
-	console.log(place.locality);
+import ReverseGeocode, { ILocation, IGeocode } from "bigdatacloud-reverse-geocoding";
+const geocode = new ReverseGeocode();
+const location: ILocation = { lat: 33.23323, long: -76.33443};
+const placeL IGeocode = await geocode.locate(location);
+console.log(place.locality);
 ```
 ### Optional initialization
 
@@ -29,6 +31,7 @@ You can use options. There are four parameters:
 | api  | `https://api.bigdatacloud.net` | The API host |
 |endpoint | `/data/reverse-geocode-client` | The API endpoint |
 | format | `latitude=${lat}&longitude=${long}`<br/>`&localityLanguage=${lang}` | The query string with placeholders |
+
 
 ###Links
 
