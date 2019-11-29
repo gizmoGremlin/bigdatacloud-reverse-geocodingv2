@@ -18,7 +18,7 @@ $`yarn add bigdatacloud-reverse-geocoding`
 import ReverseGeocode, { ILocation, IGeocode } from "bigdatacloud-reverse-geocoding";
 const geocode = new ReverseGeocode();
 const location: ILocation = { lat: 33.23323, long: -76.33443};
-const placeL IGeocode = await geocode.locate(location);
+const place: IGeocode = await geocode.locate(location);
 console.log(place.locality);
 ```
 ### Optional initialization
@@ -33,6 +33,6 @@ You can use options. There are four parameters:
 | format | `latitude=${lat}&longitude=${long}`<br/>`&localityLanguage=${lang}` | The query string with placeholders |
 
 
-###Links
+## Links
 
 [Bigdatacloud API](https://www.bigdatacloud.com/geocoding-apis/free-reverse-geocode-to-city-api)
