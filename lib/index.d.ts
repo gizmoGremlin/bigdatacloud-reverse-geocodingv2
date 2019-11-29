@@ -1,7 +1,7 @@
-import { IReverseGeocode, IGeocode } from "./interface";
+export * from "./interface";
+import { IReverseGeocode, ILocation, IGeocode } from "./interface";
 export default class ReverseGeocode {
     private options;
     constructor(options?: IReverseGeocode);
-    locate(coords: IGeocode): Promise<import("axios").AxiosResponse<any>>;
-    private parse;
+    locate(coords: ILocation): Promise<IGeocode>;
 }
