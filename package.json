@@ -2,7 +2,8 @@
   "name": "bigdatacloud-reverse-geocoding",
   "version": "0.1.0",
   "description": "Reverse geocoding browser-based typescript library, using free Bigdatacloud API",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
