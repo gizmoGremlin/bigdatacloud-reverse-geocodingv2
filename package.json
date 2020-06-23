@@ -1,6 +1,6 @@
 {
-  "name": "bigdatacloud-reverse-geocoding",
-  "version": "0.2.0",
+  "name": "bigdatacloud-reverse-geocodingv2",
+  "version": "0.1.0",
   "description": "Reverse geocoding browser-based typescript library, using free Bigdatacloud API",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bgrusnak/bigdatacloud-reverse-geocoding.git"
+    "url": "git+https://github.com/gizmoGremlin/bigdatacloud-reverse-geocodingv2.git"
   },
   "keywords": [
     "typescript",
@@ -27,14 +27,14 @@
     "browser"
   ],
   "author": {
-    "name": "Ilya A. Shlyakhovoy",
-    "email": "bulgarus@inbox.ru"
+    "name": "Ilya A. Shlyakhovoy, Nick Gill",
+    "email": "nick.gilliosipescu@gmail.com"
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/bgrusnak/bigdatacloud-reverse-geocoding/issues"
+    "url": "https://github.com/gizmoGremlin/bigdatacloud-reverse-geocodingv2/issues"
   },
-  "homepage": "https://github.com/bgrusnak/bigdatacloud-reverse-geocoding#readme",
+  "homepage": "https://github.com/gizmoGremlin/bigdatacloud-reverse-geocodingv2.git",
   "devDependencies": {
     "@types/jest": "^24.0.23",
     "jest": "^24.9.0",
