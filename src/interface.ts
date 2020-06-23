@@ -35,4 +35,5 @@ export interface IGeocode {
   locality: string;
   postcode?: string;
   localityInfo: ILocalityInfo;
+  city?: string;
 }
